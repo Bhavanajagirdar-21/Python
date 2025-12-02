@@ -1,0 +1,13 @@
+print("Enter the String: ")
+text = input()
+print("Enter a Word to Delete: ")
+word = input()
+text = text.replace(word, "")
+print()
+print(text)
+Expected Output:
+Enter the String:
+ Ram is playing
+Enter a Word to Delete
+is
+Ram playing
