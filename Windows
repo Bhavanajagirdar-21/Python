@@ -1,0 +1,18 @@
+from tkinter import *
+window=Tk()
+# add widgets here
+lbl=Label(window, text="USERNAME", fg='red', font=("Helvetica", 10))
+lbl.place(x=60, y=50)
+lbl=Label(window, text="PASSWORD", fg='red', font=("Helvetica", 10))
+lbl.place(x=60, y=80)
+txtfld=Entry(window, text="This is Entry Widget", bd=3)
+txtfld.place(x=150, y=50)
+txtfld1=Entry(window, text="This is Entry Widget", bd=3)
+txtfld1.place(x=150, y=80)
+btn=Button(window, text="SUBMIT", fg='blue')
+btn.place(x=80, y=100)
+btn1=Button(window, text="RESET", fg='RED')
+btn1.place(x=180, y=100)
+window.title('Hello Python')
+window.geometry("300x200+10+20")
+window.mainloop()
